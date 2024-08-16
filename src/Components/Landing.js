@@ -9,7 +9,7 @@ const Landing = () => {
       <div className='content'>
       <h1 className='libre-bodoni-heading'>TEKATHON 3.0</h1><br />
       <p className='why'>Internal Hackathon for SIH 2024</p>
-      <button href="/" className="menu-link-button">
+      <button href="/" className="menu-link-buttons">
               Register Now
             </button>
       </div>

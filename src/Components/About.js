@@ -24,7 +24,7 @@ Hack the North aims to empower students like you who are eager to learn and crea
         <h2 className='cdef'>Government Hackathon</h2></div>
         <div className='buttonposi'>    <p className='efgh'>Gather with 1,000 students from around the world and industry leaders at the University of Waterloo to collaborate and bring your ideas to life in 36 hours.<br /><br />
 Hack the North aims to empower students like you who are eager to learn and create by providing an environment for you to explore and build with workshops, mentorship, and hardware. Let us take care of travel, food, and the details, so that you can grow your ideas beyond a vision.</p>
-<div className='buttonpos'>
+<div className='buttonposn'>
 <button href="/" className="menu-link-button">
               Know more
             </button></div></div>

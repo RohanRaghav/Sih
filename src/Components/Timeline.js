@@ -2,7 +2,7 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div>
+    <div className='cat'>
       <div className='timeLine'>
       <div className="circle">
         <div className='svgpos'>

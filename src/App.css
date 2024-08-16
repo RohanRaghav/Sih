@@ -171,6 +171,11 @@
   transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
 
+.cat{
+  position: relative;
+  top: 0;
+}
+
 .menu-link:hover {
   transform: scale(1.2);
 }
@@ -187,6 +192,10 @@
     display: none;
     position: relative;
   }
+  .cat{
+    position: relative;
+    top: 500px;
+  }
 }
 
 .menu-link-button{
@@ -198,6 +207,23 @@
   border-radius: 20px;
   width: 150px;
   transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.menu-link-buttons{
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #F5F7F8; /* Content is blue */
+  background-color: #495E57;
+  text-decoration: none;
+  border-radius: 20px;
+  position: relative;
+  top: 25px;
+  width: 150px;
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.menu-link-buttons:hover {
+  transform: scale(1.2);
 }
 
 .menu-link-button:hover {
@@ -304,6 +330,7 @@
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   position: relative;
+  padding-top: 20px;
   top: -30px;
   left: 160px;
 }
@@ -316,6 +343,9 @@
 }
 .content{
   display:inline-block;
+  position: relative;
+  top: 60px;
+  left: -40px;
 }
 
 .abc  {
@@ -325,7 +355,7 @@
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   padding-left: 100px;
-  top: -100;
+  padding-bottom: 10px;
   position: relative;
   font-size: 2rem; /* Padding from the left */
 }
@@ -337,8 +367,9 @@
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   padding-left: 100px; /* Padding from the left */
   position: relative;
+  padding-bottom: 10px;
   font-size: 1.2rem;
-  top: -35px;
+  top: -30px;
 }
 .teck {
   display: flex; /* Use flex display for the container */
@@ -347,18 +378,20 @@
   float: left;
 }
 
-.efg{
+.efg {
   position: relative;
   font-size: 1rem;
   top: -30px;
-  padding-left: 80px;
+  padding-left: 100px;
   max-width: 700px;
-  font-family: "Inter", sans-serif; /* Specify the font family */
-  font-optical-sizing: auto; /* Use automatic optical sizing */
-  font-weight: 300; /* Specify a weight, e.g., 700 for bold */
-  font-style: normal; /* Ensure the font style is normal */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   float: left;
+  text-align: justify; /* This will justify the text within the element */
 }
+
 .aboutimg {
   height: 500px;
   width: 500px;
@@ -420,6 +453,7 @@
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   position: relative;
+  padding-top: 15px;
   font-size: 1.2rem;
   right: 40px;
   top: -35px;
@@ -428,21 +462,25 @@
 .buttonpos{
   padding-left: 100px;
 }
+.buttonposn{
+  padding-left: 75px;
+}
 
 .efgh{
   position: relative;
   font-size: 1rem;
-  top: -45px;
+  top: -25px;
   padding-left: 80px;
   max-width: 80%;
   font-family: "Inter", sans-serif; /* Specify the font family */
   font-optical-sizing: auto; /* Use automatic optical sizing */
   font-weight: 300; /* Specify a weight, e.g., 700 for bold */
   font-style: normal; /* Ensure the font style is normal */
+  text-align: justify;
 }
 
 .buttonposi{
-  padding-left: 725px;
+  padding-left: 730px;
 }
 @media (max-width: 767px) {
   .aboutimgsec{
@@ -562,7 +600,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   width: 400px;
-  height: 30px;
+  height: 50px;
 }
 
 .forming .More{
