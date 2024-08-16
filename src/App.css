@@ -192,10 +192,6 @@
     display: none;
     position: relative;
   }
-  .cat{
-    position: relative;
-    top: 500px;
-  }
 }
 
 .menu-link-button{
