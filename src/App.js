@@ -4,11 +4,9 @@ import Register from './Components/Register';
 import Dashboard from './Components/Dashboard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './Components/Main';
-import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
                         <Routes>
                             <Route path="/Login" element={<Login />} />

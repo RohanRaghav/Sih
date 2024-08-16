@@ -1,10 +1,16 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Importing useNavigate
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate(); // Initializing the useNavigate hook
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleLoginClick = () => {
+    navigate("/Login"); // Navigating to the login page
   };
 
   return (
@@ -33,7 +39,7 @@ const Navbar = () => {
             <a href="/" className="menu-link">
               Guidance
             </a>
-            <button href="/" className="menu-link-button">
+            <button onClick={handleLoginClick} className="menu-link-button">
               Login
             </button>
           </div>
@@ -71,9 +77,9 @@ const Navbar = () => {
           <a href="/" className="menu-link">
             Services
           </a>
-          <button href="/" className="menu-link-button">
-              Login
-            </button>
+          <button onClick={handleLoginClick} className="menu-link-button">
+            Login
+          </button>
         </div>
       </nav>
     </div>

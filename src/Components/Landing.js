@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Landing = () => {
   return (
     <div>
+      <Navbar />
       <img src='back.png' className='background'alt='back'/>
       <div className='content'>
       <h1 className='libre-bodoni-heading'>TEKATHON 3.0</h1><br />
