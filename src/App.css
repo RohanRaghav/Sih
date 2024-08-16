@@ -185,6 +185,7 @@
   }
   .menu-button {
     display: none;
+    position: relative;
   }
 }
 
@@ -283,6 +284,10 @@
     padding-right: 0;
     height: 350px;
   }
+  .menu-link-button{
+    position: relative;
+    top: 20px;
+  }
 }
 
 .why {
@@ -299,13 +304,13 @@
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   position: relative;
-  top: -50px;
+  top: -30px;
   left: 160px;
 }
 @media (max-width: 767px) {
   .why{
     position: relative;
-    top: 0px;
+    top: 10px;
   left: 0px;
   }
 }
@@ -319,7 +324,10 @@
   font-weight: 700; /* Specify a weight, e.g., 700 for bold */
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
-  padding-left: 100px; /* Padding from the left */
+  padding-left: 100px;
+  top: -100;
+  position: relative;
+  font-size: 2rem; /* Padding from the left */
 }
 .cde{
   font-family: "Advent Pro", sans-serif; /* Specify the font family */
@@ -330,7 +338,7 @@
   padding-left: 100px; /* Padding from the left */
   position: relative;
   font-size: 1.2rem;
-  top: -45px;
+  top: -35px;
 }
 .teck {
   display: flex; /* Use flex display for the container */
@@ -342,7 +350,7 @@
 .efg{
   position: relative;
   font-size: 1rem;
-  top: -45px;
+  top: -30px;
   padding-left: 80px;
   max-width: 700px;
   font-family: "Inter", sans-serif; /* Specify the font family */
@@ -376,9 +384,12 @@
   }
   .abc{
     padding-left: 0;
+    top:0px;
+    position: relative;
   }
   .cde{
     padding-left: 0;
+    font-size: 1.5rem;
   }
 }
 
@@ -395,8 +406,10 @@
   font-weight: 700; /* Specify a weight, e.g., 700 for bold */
   font-style: normal; /* Ensure the font style is normal */
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
-  padding-left: 100px; /* Padding from the left */
   padding-top: 500px;
+  font-size: 2rem;
+  position: relative;
+  right: -90px;
   float:inline;
   z-index: 2;
 }
@@ -408,8 +421,8 @@
   font-variation-settings: "wdth" 100; /* Adjust width if needed */
   position: relative;
   font-size: 1.2rem;
-  right: 131px;
-  top: -45px;
+  right: 40px;
+  top: -35px;
 }
 
 .buttonpos{
